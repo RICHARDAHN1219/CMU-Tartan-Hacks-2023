@@ -1,5 +1,6 @@
 .navbar {
     width: 100vw;
+    height: 8vw;
     background-color: #192E4D;
     color: #ffffff;
     font-family: 'Jockey One';
@@ -11,16 +12,16 @@
   }
   
   .head {
-    font-size: 24px;
+    font-size: 6rem;
     margin-left: 6.5rem;
-    color: #ffffff;
+    color: red;
     text-decoration: none;
   }
   
   .nav {
     margin-left: 2rem;
     margin-right: 2rem;
-    color: #ffffff;
+    color: red;
     text-decoration: none;
     font-family: 'Inter';
     font-weight: 500;
@@ -28,8 +29,8 @@
   }
   
   .nav:hover{
-    color: white;
-    outline: #ffffff;
+    color: red;
+    outline: red;
     font-size: 22px;
     transition: font-size 0.8s ease;
     transition-duration: 0.8s;
@@ -50,6 +51,7 @@
   
   .project:hover{
     color: #D62839;
+    top: 50px;
     font-size: 22px;
     transition: font-size 0.8s ease;
     transition-duration: 0.8s;

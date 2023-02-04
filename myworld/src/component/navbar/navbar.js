@@ -1,11 +1,16 @@
 import React from 'react';
 import './Navbar.css'
+import logo from '../../img/logo.png'
 
 const Navbar = () => {
     return (
         <div className='navbar'>
         <div to='/' className='head'>
-        <h1>An<span>Qi.</span> is carrying us</h1>
+        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
+          <img src={logo} width = {240} height = {150}></img>
+        </a>
+        
+
         </div>
 
         <div className='links'>
