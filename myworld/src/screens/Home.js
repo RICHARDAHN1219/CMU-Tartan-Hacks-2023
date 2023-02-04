@@ -114,6 +114,11 @@ import islandPic4 from '../img/island1.png'
         <button className = "button" onClick={() => alert("hello")}> + </button>
       </div>
 
+      <div class="flex-parent jc-center">
+      <button type="submit" class="block magenta">Block button</button>
+      </div>
+
+
 
 
         

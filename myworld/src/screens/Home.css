@@ -20,8 +20,11 @@ img {
 
 .button {
     display: flex;
+    margin: auto;
     justify-content: center;
     align-items: center;
+    height: 200px;
+    width: 200px;
 
 }
 

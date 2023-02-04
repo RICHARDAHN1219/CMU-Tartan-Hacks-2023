@@ -14,9 +14,9 @@ const Navbar = () => {
         </div>
 
         <div className='links'>
-            <div to='#project' smooth className='nav project'>Project</div>
-            <div to='#about' smooth className='nav'>About</div>
-            <div className='nav' href='/'>Resume</div>
+            <div to='#project' smooth className='nav project'>First Idea Friday</div>
+            <div to='#about' smooth className='nav'>Local Issues</div>
+            <div className='nav' href='/'>Events</div>
         </div>
         </div>
     );
